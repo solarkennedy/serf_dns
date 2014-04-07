@@ -1,4 +1,4 @@
-# Serf\_Dns
+# Serf_DNS
 
 A program to serve DNS requests based on the Serf toplology.
 
