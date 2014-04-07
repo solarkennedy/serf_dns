@@ -33,3 +33,19 @@ zone "serf." in {
     forwarders { 127.0.0.1 port 8053 ; };
 };
 ```
+
+## Demo
+
+Once running, you can confirm the records are in place with dig:
+```
+$ # Using a "serf" fake TLD
+$ # Lets query the local serf_dns running on 8053...
+$ dig +short @localhost -p 8053  server1.xkyle.com.serf.
+192.168.1.67
+$ # Run serf members to verify...
+$ serf members
+server1.xkyle.com     192.168.1.67:7946    alive
+server2.xkyle.com     192.168.1.69:7946    alive
+$ echo 'It Works!'
+It Works!
+```
