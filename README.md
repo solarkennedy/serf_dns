@@ -1,6 +1,7 @@
 # Serf_DNS
+[![Build Status](https://travis-ci.org/solarkennedy/serf_dns.svg?branch=master)](https://travis-ci.org/solarkennedy/serf_dns)
 
-A program to serve DNS requests based on the Serf toplology.
+A program to serve DNS requests based on the Serf topology.
 
 ## Description
 
