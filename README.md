@@ -1,4 +1,7 @@
-# Serf_DNS
+# WARNING:
+# This project is just a proof of concept
+# It has been superseded by [Consul](http://www.consul.io/) (which has a dns inteface)
+
 [![Build Status](https://travis-ci.org/solarkennedy/serf_dns.svg?branch=master)](https://travis-ci.org/solarkennedy/serf_dns)
 
 A program to serve DNS requests based on the Serf topology.
